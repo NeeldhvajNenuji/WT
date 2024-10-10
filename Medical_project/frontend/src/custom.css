@@ -1,0 +1,38 @@
+body {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  .navbar {
+    background-color: #212529; /* Dark navbar */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White nav links */
+  }
+  
+  .nav-link:hover {
+    color: #adb5bd; /* Light gray on hover */
+  }
+  
+  .card {
+    background-color: #495057; /* Dark card background */
+    border: none; /* Remove borders */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 10px; /* Adjust navbar padding for smaller screens */
+    }
+  }
